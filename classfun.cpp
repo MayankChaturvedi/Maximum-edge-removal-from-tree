@@ -86,7 +86,7 @@ int graph::ini_dfs(){
         dfs(0,b);
         loop(n){
                 if(explored[i]==0){
-                    num=dfs2(i,b);
+                    num=dfs2(i,b);//Needimprovement. This part increases time complexity.
                     int t=dfs(i);if(t==0){return 0;}}
         }
         return 1;
