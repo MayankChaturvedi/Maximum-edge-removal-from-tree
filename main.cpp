@@ -1,9 +1,5 @@
 #include "head.h"
 int main(){
-        /*graph gr(4);
-        gr.addedge(2,4);
-        gr.addedge(4,1);
-        gr.addedge(3,1);*/
         int n;
         cin>>n;
         graph gr(n);
